@@ -6,7 +6,6 @@ exports.up = function(knex, Promise) {
             .notNullable();
         table.string('notes')
         table.integer('project_id')
-            .unique()
             .unsigned()
             .references('id')
             .inTable('project')

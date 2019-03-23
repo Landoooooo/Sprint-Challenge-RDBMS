@@ -4,10 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/Landoooooo/Sprint-Challenge-RDBMS.git",
   "author": "Alando Appling <alandoappling@gmail.com>",
+  "scripts": {
+    "server": "nodemon"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "knex": "^0.16.3",
+    "nodemon": "^1.18.10",
     "sqlite3": "^4.0.6"
   }
 }
